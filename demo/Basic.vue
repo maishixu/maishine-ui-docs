@@ -37,7 +37,6 @@
 </template>
 
 <script setup>
-import "x-element-plus/dist/style.css";
 import { Button, Icon } from "x-element-plus";
 </script>
 
