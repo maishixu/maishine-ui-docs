@@ -18,30 +18,40 @@ const { theme, page, frontmatter } = useData()
 ## Results
 
 ### Theme Data
+
 <pre>{{ theme }}</pre>
 
 ### Page Data
+
 <pre>{{ page }}</pre>
 
 ### Page Frontmatter
+
 <pre>{{ frontmatter }}</pre>
 ```
 
 <script setup>
 import { useData } from 'vitepress'
+import 'x-element-plus/dist/style.css'
+import { Button } from 'x-element-plus'
 
 const { site, theme, page, frontmatter } = useData()
 </script>
 
 ## Results
 
+<pre><Button>测试</Button></pre>
+
 ### Theme Data
+
 <pre>{{ theme }}</pre>
 
 ### Page Data
+
 <pre>{{ page }}</pre>
 
 ### Page Frontmatter
+
 <pre>{{ frontmatter }}</pre>
 
 ## More

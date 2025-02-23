@@ -7,5 +7,9 @@
   },
   "devDependencies": {
     "vitepress": "^1.6.3"
+  },
+  "dependencies": {
+    "@vikingmute/v-element": "^0.0.4",
+    "x-element-plus": "^0.0.4"
   }
 }
