@@ -33,7 +33,7 @@ const { theme, page, frontmatter } = useData()
 <script setup>
 import { useData } from 'vitepress'
 import 'x-element-plus/dist/style.css'
-import { Button,Alert } from 'x-element-plus'
+import { Button } from 'x-element-plus'
 
 const { site, theme, page, frontmatter } = useData()
 </script>
@@ -41,7 +41,10 @@ const { site, theme, page, frontmatter } = useData()
 ## Results
 
 <pre><Button>测试</Button></pre>
-<pre><Alert>测试x-element</Alert></pre>
+<pre><Button>测试库</Button></pre>
+<pre><Button>测试库</Button></pre>
+<pre><Button>测试库</Button></pre>
+<pre><Button>测试库</Button></pre>
 
 ### Theme Data
 
