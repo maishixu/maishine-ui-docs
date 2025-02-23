@@ -32,15 +32,15 @@ const { theme, page, frontmatter } = useData()
 
 <script setup>
 import { useData } from 'vitepress'
-import 'x-element-plus/dist/style.css'
-import { Button } from 'x-element-plus'
+import 'element-plus/dist/index.css'
+import { ElButton } from 'element-plus'
 
 const { site, theme, page, frontmatter } = useData()
 </script>
 
 ## Results
 
-<pre><Button>测试</Button></pre>
+<pre><ElButton>测试element</ElButton></pre>
 
 ### Theme Data
 

@@ -1,12 +1,13 @@
 import {
   useMediaQuery
-} from "./chunk-JDNC6F2X.js";
+} from "./chunk-W3IUXPUI.js";
 import {
   computed,
   ref,
   shallowRef,
   watch
-} from "./chunk-VJWGEPT5.js";
+} from "./chunk-GWYN3LB4.js";
+import "./chunk-5WRI5ZAA.js";
 
 // node_modules/vitepress/dist/client/theme-default/index.js
 import "C:/Users/Mason/Desktop/x-element-docs/node_modules/vitepress/dist/client/theme-default/styles/fonts.css";
