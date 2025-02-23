@@ -5,7 +5,7 @@ import {
 } from "@vitepress-demo-preview/plugin";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/mx-element-docs/",
+  base: "/x-element-docs/",
   title: "X-Element",
   description: "A VitePress Site",
   themeConfig: {
