@@ -1,23 +1,31 @@
 import { defineConfig } from "vitepress";
-
+import {
+  containerPreview,
+  componentPreview,
+} from "@vitepress-demo-preview/plugin";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/x-element-docs/",
-  title: "XElement",
-  description: "Vue UI Cmt",
+  base: "/mx-element/",
+  title: "X-Element",
+  description: "A VitePress Site",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "Home", link: "/" },
-      { text: "Examples", link: "/markdown-examples" },
+      { text: "主页", link: "/" },
+      { text: "指南", link: "/get-start" },
+      { text: "组件", link: "/components/alert" },
     ],
 
     sidebar: [
       {
-        text: "Examples",
+        text: "组件列表",
         items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
+          { text: "Alert 警告", link: "/components/alert" },
+          { text: "Button 按钮", link: "/components/button" },
+          { text: "Collapse 折叠面板", link: "/components/collapse" },
+          { text: "Input 输入框", link: "/components/input" },
+          { text: "Select 选择器", link: "/components/select" },
+          { text: "Switch 开关", link: "/components/switch" },
         ],
       },
     ],
@@ -25,5 +33,11 @@ export default defineConfig({
     socialLinks: [
       { icon: "github", link: "https://github.com/vuejs/vitepress" },
     ],
+  },
+  markdown: {
+    config(md) {
+      md.use(containerPreview);
+      md.use(componentPreview);
+    },
   },
 });

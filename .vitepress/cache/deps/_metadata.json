@@ -1,49 +1,43 @@
 {
-  "hash": "c1e5a83f",
-  "configHash": "0c392ddf",
-  "lockfileHash": "34f5a157",
-  "browserHash": "44f9463d",
+  "hash": "88a29908",
+  "configHash": "3b5e1660",
+  "lockfileHash": "f3712368",
+  "browserHash": "5662da42",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "2d8e8ced",
+      "fileHash": "ab666dea",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "952d5b50",
+      "fileHash": "059c2741",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "697ed00a",
+      "fileHash": "c8d59acb",
       "needsInterop": false
     },
-    "@theme/index": {
-      "src": "../../../node_modules/vitepress/dist/client/theme-default/index.js",
-      "file": "@theme_index.js",
-      "fileHash": "0c1eacd3",
+    "@vitepress-demo-preview/component": {
+      "src": "../../../node_modules/@vitepress-demo-preview/component/dist/preview-component.js",
+      "file": "@vitepress-demo-preview_component.js",
+      "fileHash": "d60dbeaa",
       "needsInterop": false
     },
-    "element-plus": {
-      "src": "../../../node_modules/element-plus/es/index.mjs",
-      "file": "element-plus.js",
-      "fileHash": "0ff2322d",
+    "x-element-plus": {
+      "src": "../../../node_modules/x-element-plus/dist/x-element.js",
+      "file": "x-element-plus.js",
+      "fileHash": "ee40296a",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-W3IUXPUI": {
-      "file": "chunk-W3IUXPUI.js"
-    },
-    "chunk-GWYN3LB4": {
-      "file": "chunk-GWYN3LB4.js"
-    },
-    "chunk-5WRI5ZAA": {
-      "file": "chunk-5WRI5ZAA.js"
+    "chunk-VJWGEPT5": {
+      "file": "chunk-VJWGEPT5.js"
     }
   }
 }

@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@vikingmute/v-element": "^0.0.4",
+    "@vitepress-demo-preview/component": "^2.3.2",
+    "@vitepress-demo-preview/plugin": "^1.3.0",
     "x-element-plus": "^0.0.4"
   }
 }

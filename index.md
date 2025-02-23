@@ -3,16 +3,16 @@
 layout: home
 
 hero:
-  name: "XElement"
-  text: "Vue UI Cmt"
-  tagline: My great project tagline
+  name: "X-Element"
+  text: "轻量组件库"
+  tagline: 基于 Vue 3，面向设计师和开发者的组件库
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 开始使用
+      link: /get-start
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 作者源码
+      link: https://github.com/maishixu/mx-element
 
 features:
   - title: Feature A
@@ -22,4 +22,3 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
