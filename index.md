@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "X-Element"
-  text: "轻量组件库"
-  tagline: 基于 Vue 3，面向设计师和开发者的组件库
+  name: "Maishine UI"
+  text: "轻量组件 灵动设计"
+  tagline: 基于 Vue 3，融合 TS，面向设计师和开发者的组件库
   actions:
     - theme: brand
       text: 开始使用
@@ -15,10 +15,10 @@ hero:
       link: https://github.com/maishixu/mx-element
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 动态主题
+    details: 通过 PostCSS 和 CSS 变量支持快速切换主题色
+  - title: 组件交互
+    details: 支持双向绑定和事件透传，提升使用灵活性
+  - title: 可访问性
+    details: 注重表单组件的交互性，确保良好可访问体验
 ---
