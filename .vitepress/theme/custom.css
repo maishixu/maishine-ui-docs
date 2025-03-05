@@ -22,7 +22,7 @@
   color: var(--vp-c-brand-darker);
 }
 @media (min-width: 960px) {
-  .text[data-v-89d2fc22] {
+  .text {
     line-height: 64px;
     font-size: 45px;
     background-image: linear-gradient(
